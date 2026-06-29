@@ -14,7 +14,7 @@ TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
-TOTAL_CAPITAL = 1000.0   # موجودی فرضی کل حساب شما
+TOTAL_CAPITAL = 1001.0   # موجودی فرضی کل حساب شما
 
 def send_telegram_message(message):
     """ارسال امن پیام به تلگرام با کنترل خطا"""
